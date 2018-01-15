@@ -5,10 +5,10 @@ class MovieList extends React.Component {
 
   render() {
 
-    const MovieNodes = this.props.comments.map(function (comment) {
+    const movieNodes = this.props.movies.map(function (movie) {
       return (
-        <Movie key= {movie.id} author={ movie. }>
-
+        <Movie key= {movie.id} title={ movie.title }>
+          { movies.showtimes }
         </Movie>
       );
     });
